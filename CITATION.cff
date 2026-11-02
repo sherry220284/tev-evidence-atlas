@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this review dataset and the original sources associated with each measurement."
+title: "TEV Evidence Atlas: historical engineering and natural NIa-Pro evidence"
+version: "0.2.0-review"
+type: dataset
+authors:
+  - name: "TEV Evidence Atlas project team"
+abstract: "A bounded source-traceable review dataset; 168 historical measurements and 35 analyzed natural mature domains. Not a validated cold-active enzyme release."
+keywords:
+  - TEV protease
+  - evidence curation
+  - NIa-Pro
+  - reproducibility

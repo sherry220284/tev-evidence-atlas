@@ -1,0 +1,116 @@
+mutation_id,variant_id,source_id,source_notation,source_numbering_scheme,source_position,canonical_position,reference_residue,alternate_residue,mutation_type,mapping_status,mapping_method,notes
+cab_wt_S219V,cab_wt,src_cabrita2007,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_k45f_K45F,cab_k45f,src_cabrita2007,K45F,SOURCE_MATURE_TEV,45,45,K,F,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_k45f_S219V,cab_k45f,src_cabrita2007,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_l56v_L56V,cab_l56v,src_cabrita2007,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_l56v_S219V,cab_l56v,src_cabrita2007,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_q58f_Q58F,cab_q58f,src_cabrita2007,Q58F,SOURCE_MATURE_TEV,58,58,Q,F,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_q58f_S219V,cab_q58f,src_cabrita2007,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_e106g_E106G,cab_e106g,src_cabrita2007,E106G,SOURCE_MATURE_TEV,106,106,E,G,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_e106g_S219V,cab_e106g,src_cabrita2007,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_s135g_S135G,cab_s135g,src_cabrita2007,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_s135g_S219V,cab_s135g,src_cabrita2007,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_double_L56V,cab_double,src_cabrita2007,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_double_S135G,cab_double,src_cabrita2007,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+cab_double_S219V,cab_double,src_cabrita2007,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+st_delta_S219V,st_delta,src_sanchez2020,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_u1d_S153N,st_u1d,src_sanchez2020,S153N,SOURCE_MATURE_TEV,153,153,S,N,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,Source nucleotide/AA sequence shows S153N even where the supplement heading says S135N.
+st_u1d_S219V,st_u1d,src_sanchez2020,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_u2d_T30A,st_u2d,src_sanchez2020,T30A,SOURCE_MATURE_TEV,30,30,T,A,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_u2d_S153N,st_u2d,src_sanchez2020,S153N,SOURCE_MATURE_TEV,153,153,S,N,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,Source nucleotide/AA sequence shows S153N even where the supplement heading says S135N.
+st_u2d_S219V,st_u2d,src_sanchez2020,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_full_S219V,st_full,src_sanchez2020,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_u3_I138T,st_u3,src_sanchez2020,I138T,SOURCE_MATURE_TEV,138,138,I,T,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_u3_S153N,st_u3,src_sanchez2020,S153N,SOURCE_MATURE_TEV,153,153,S,N,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_u3_T180A,st_u3,src_sanchez2020,T180A,SOURCE_MATURE_TEV,180,180,T,A,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_u3_S219V,st_u3,src_sanchez2020,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,Source AA sequence versus P04517 mature-domain exact difference check,\N
+st_u1full_S153N,st_u1full,src_sanchez2020,S153N,SOURCE_MATURE_TEV,153,153,S,N,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+st_u1full_S219V,st_u1full,src_sanchez2020,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+nam_n_T17S,nam_n,src_nam2020,T17S,SOURCE_MATURE_TEV,17,17,T,S,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+nam_n_N68D,nam_n,src_nam2020,N68D,SOURCE_MATURE_TEV,68,68,N,D,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+nam_n_I77V,nam_n,src_nam2020,I77V,SOURCE_MATURE_TEV,77,77,I,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+nam_n_S219N,nam_n,src_nam2020,S219N,SOURCE_MATURE_TEV,219,219,S,N,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+nam_v_T17S,nam_v,src_nam2020,T17S,SOURCE_MATURE_TEV,17,17,T,S,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+nam_v_N68D,nam_v,src_nam2020,N68D,SOURCE_MATURE_TEV,68,68,N,D,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+nam_v_I77V,nam_v,src_nam2020,I77V,SOURCE_MATURE_TEV,77,77,I,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+nam_v_S219V,nam_v,src_nam2020,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,Candidate identity coordinate; source residue agrees with P04517; complete source sequence unavailable,\N
+yi_parent_p_S219P,yi_parent_p,src_yi2013,S219P,SOURCE_MATURE_TEV,219,219,S,P,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_parent_v_S219V,yi_parent_v,src_yi2013,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_pe10_S120R,yi_pe10,src_yi2013,S120R,SOURCE_MATURE_TEV,120,120,S,R,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_pe10_D148R,yi_pe10,src_yi2013,D148R,SOURCE_MATURE_TEV,148,148,D,R,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_pe10_T173A,yi_pe10,src_yi2013,T173A,SOURCE_MATURE_TEV,173,173,T,A,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_pe10_N177K,yi_pe10,src_yi2013,N177K,SOURCE_MATURE_TEV,177,177,N,K,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_pe10_M218I,yi_pe10,src_yi2013,M218I,SOURCE_MATURE_TEV,218,218,M,I,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_pe10_S219P,yi_pe10,src_yi2013,S219P,SOURCE_MATURE_TEV,219,219,S,P,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_ph21_T17A,yi_ph21,src_yi2013,T17A,SOURCE_MATURE_TEV,17,17,T,A,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_ph21_T146A,yi_ph21,src_yi2013,T146A,SOURCE_MATURE_TEV,146,146,T,A,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_ph21_D148P,yi_ph21,src_yi2013,D148P,SOURCE_MATURE_TEV,148,148,D,P,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_ph21_S153C,yi_ph21,src_yi2013,S153C,SOURCE_MATURE_TEV,153,153,S,C,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_ph21_S168T,yi_ph21,src_yi2013,S168T,SOURCE_MATURE_TEV,168,168,S,T,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_ph21_S170A,yi_ph21,src_yi2013,S170A,SOURCE_MATURE_TEV,170,170,S,A,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_ph21_T173A,yi_ph21,src_yi2013,T173A,SOURCE_MATURE_TEV,173,173,T,A,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_ph21_S219P,yi_ph21,src_yi2013,S219P,SOURCE_MATURE_TEV,219,219,S,P,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_fast_G79E,yi_fast,src_yi2013,G79E,SOURCE_MATURE_TEV,79,79,G,E,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_fast_T173A,yi_fast,src_yi2013,T173A,SOURCE_MATURE_TEV,173,173,T,A,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+yi_fast_S219V,yi_fast,src_yi2013,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+golda_v_S219V,golda_v,src_p1specificity2024,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+golda_vg_S219V,golda_vg,src_p1specificity2024,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+golda_vg_R203G,golda_vg,src_p1specificity2024,R203G,SOURCE_MATURE_TEV,203,203,R,G,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_s219v_S219V,dav_s219v,src_davis2025,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_triple_L56V,dav_triple,src_davis2025,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_triple_S135G,dav_triple,src_davis2025,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_triple_S219V,dav_triple,src_davis2025,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_hexa_C19V,dav_hexa,src_davis2025,C19V,SOURCE_MATURE_TEV,19,19,C,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_hexa_L56V,dav_hexa,src_davis2025,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_hexa_C110V,dav_hexa,src_davis2025,C110V,SOURCE_MATURE_TEV,110,110,C,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_hexa_C130S,dav_hexa,src_davis2025,C130S,SOURCE_MATURE_TEV,130,130,C,S,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_hexa_S135G,dav_hexa,src_davis2025,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+dav_hexa_S219V,dav_hexa,src_davis2025,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_triple_L56V,mes_triple,src_messing2024,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_triple_S135G,mes_triple,src_messing2024,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_triple_S219V,mes_triple,src_messing2024,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_n_L56V,mes_n,src_messing2024,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_n_S135G,mes_n,src_messing2024,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_n_S219N,mes_n,src_messing2024,S219N,SOURCE_MATURE_TEV,219,219,S,N,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_ting_L56V,mes_ting,src_messing2024,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_ting_S135G,mes_ting,src_messing2024,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_ting_I138T,mes_ting,src_messing2024,I138T,SOURCE_MATURE_TEV,138,138,I,T,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_ting_S153N,mes_ting,src_messing2024,S153N,SOURCE_MATURE_TEV,153,153,S,N,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_ting_T180A,mes_ting,src_messing2024,T180A,SOURCE_MATURE_TEV,180,180,T,A,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_ting_S219V,mes_ting,src_messing2024,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_berg_T17S,mes_berg,src_messing2024,T17S,SOURCE_MATURE_TEV,17,17,T,S,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_berg_L56V,mes_berg,src_messing2024,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_berg_N68D,mes_berg,src_messing2024,N68D,SOURCE_MATURE_TEV,68,68,N,D,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_berg_I77V,mes_berg,src_messing2024,I77V,SOURCE_MATURE_TEV,77,77,I,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_berg_S135G,mes_berg,src_messing2024,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_berg_S219V,mes_berg,src_messing2024,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_T17S,mes_all,src_messing2024,T17S,SOURCE_MATURE_TEV,17,17,T,S,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_L56V,mes_all,src_messing2024,L56V,SOURCE_MATURE_TEV,56,56,L,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_N68D,mes_all,src_messing2024,N68D,SOURCE_MATURE_TEV,68,68,N,D,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_I77V,mes_all,src_messing2024,I77V,SOURCE_MATURE_TEV,77,77,I,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_S135G,mes_all,src_messing2024,S135G,SOURCE_MATURE_TEV,135,135,S,G,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_I138T,mes_all,src_messing2024,I138T,SOURCE_MATURE_TEV,138,138,I,T,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_S153N,mes_all,src_messing2024,S153N,SOURCE_MATURE_TEV,153,153,S,N,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_T180A,mes_all,src_messing2024,T180A,SOURCE_MATURE_TEV,180,180,T,A,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+mes_all_S219V,mes_all,src_messing2024,S219V,SOURCE_MATURE_TEV,219,219,S,V,SUBSTITUTION,AMBIGUOUS,RESIDUE_ANCHOR_ONLY,Source residue agrees with the canonical reference; full source sequence not available.
+pat_control_L56V,pat_control,src_patent2026,L56V,PATENT_MATURE_TEV,56,56,L,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:30; PDF page 35 (printed page 21)
+pat_control_S135G,pat_control,src_patent2026,S135G,PATENT_MATURE_TEV,135,135,S,G,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:30; PDF page 35 (printed page 21)
+pat_control_S219V,pat_control,src_patent2026,S219V,PATENT_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:30; PDF page 35 (printed page 21)
+pat_r49f_l76p_R49F,pat_r49f_l76p,src_patent2026,R49F,PATENT_MATURE_TEV,49,49,R,F,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:11; PDF page 32 (printed page 18); continued PDF page 33
+pat_r49f_l76p_L56V,pat_r49f_l76p,src_patent2026,L56V,PATENT_MATURE_TEV,56,56,L,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:11; PDF page 32 (printed page 18); continued PDF page 33
+pat_r49f_l76p_L76P,pat_r49f_l76p,src_patent2026,L76P,PATENT_MATURE_TEV,76,76,L,P,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:11; PDF page 32 (printed page 18); continued PDF page 33
+pat_r49f_l76p_S135G,pat_r49f_l76p,src_patent2026,S135G,PATENT_MATURE_TEV,135,135,S,G,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:11; PDF page 32 (printed page 18); continued PDF page 33
+pat_r49f_l76p_S219V,pat_r49f_l76p,src_patent2026,S219V,PATENT_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:11; PDF page 32 (printed page 18); continued PDF page 33
+pat_r49v_l76p_R49V,pat_r49v_l76p,src_patent2026,R49V,PATENT_MATURE_TEV,49,49,R,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:12; PDF page 33 (printed page 19)
+pat_r49v_l76p_L56V,pat_r49v_l76p,src_patent2026,L56V,PATENT_MATURE_TEV,56,56,L,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:12; PDF page 33 (printed page 19)
+pat_r49v_l76p_L76P,pat_r49v_l76p,src_patent2026,L76P,PATENT_MATURE_TEV,76,76,L,P,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:12; PDF page 33 (printed page 19)
+pat_r49v_l76p_S135G,pat_r49v_l76p,src_patent2026,S135G,PATENT_MATURE_TEV,135,135,S,G,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:12; PDF page 33 (printed page 19)
+pat_r49v_l76p_S219V,pat_r49v_l76p,src_patent2026,S219V,PATENT_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:12; PDF page 33 (printed page 19)
+pat_r49v_R49V,pat_r49v,src_patent2026,R49V,PATENT_MATURE_TEV,49,49,R,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:14; PDF page 33 (printed page 19)
+pat_r49v_L56V,pat_r49v,src_patent2026,L56V,PATENT_MATURE_TEV,56,56,L,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:14; PDF page 33 (printed page 19)
+pat_r49v_S135G,pat_r49v,src_patent2026,S135G,PATENT_MATURE_TEV,135,135,S,G,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:14; PDF page 33 (printed page 19)
+pat_r49v_S219V,pat_r49v,src_patent2026,S219V,PATENT_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:14; PDF page 33 (printed page 19)
+pat_l76p_L56V,pat_l76p,src_patent2026,L56V,PATENT_MATURE_TEV,56,56,L,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:15; PDF page 33 (printed page 19)
+pat_l76p_L76P,pat_l76p,src_patent2026,L76P,PATENT_MATURE_TEV,76,76,L,P,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:15; PDF page 33 (printed page 19)
+pat_l76p_S135G,pat_l76p,src_patent2026,S135G,PATENT_MATURE_TEV,135,135,S,G,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:15; PDF page 33 (printed page 19)
+pat_l76p_S219V,pat_l76p,src_patent2026,S219V,PATENT_MATURE_TEV,219,219,S,V,SUBSTITUTION,VERIFIED,FULL_SOURCE_SEQUENCE_COMPARISON,Sequence listing SEQ ID NO:15; PDF page 33 (printed page 19)

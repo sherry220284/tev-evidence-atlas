@@ -1,0 +1,15 @@
+{
+  "downloaded_at_utc": "2026-10-29T11:39:23Z",
+  "fields": "accession,id,reviewed,protein_name,organism_name,organism_id,lineage,virus_hosts,sequence,length,ft_chain,xref_refseq,xref_embl,protein_existence,annotation_score",
+  "output_bytes": 4767832,
+  "output_path": "raw-data/uniprot/uniprot_potyviridae_ipr001730_2026_03.tsv",
+  "output_sha256": "45b921a0efd602d55f331e18ed953e34b2b8e3b80e92d9d8bd5238354f7f577d",
+  "query": "(taxonomy_id:39729) AND (xref:InterPro-IPR001730)",
+  "request_url": "https://rest.uniprot.org/uniprotkb/stream?query=%28taxonomy_id%3A39729%29+AND+%28xref%3AInterPro-IPR001730%29&format=tsv&fields=accession%2Cid%2Creviewed%2Cprotein_name%2Corganism_name%2Corganism_id%2Clineage%2Cvirus_hosts%2Csequence%2Clength%2Cft_chain%2Cxref_refseq%2Cxref_embl%2Cprotein_existence%2Cannotation_score&compressed=false",
+  "response_headers": {
+    "Content-Type": "text/plain;format=tsv",
+    "X-API-Deployment-Date": "07-October-2026",
+    "X-UniProt-Release": "2026_03",
+    "X-UniProt-Release-Date": "02-September-2026"
+  }
+}

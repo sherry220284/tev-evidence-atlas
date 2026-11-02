@@ -1,0 +1,22 @@
+edge_id,parent_variant_id,child_variant_id,relationship_type,source_id,evidence_locator,quality_grade
+edge_cab_k45f,cab_wt,cab_k45f,REPORTED_DERIVATION,src_cabrita2007,sec8: Production of the TEV variants,VERIFIED
+edge_cab_l56v,cab_wt,cab_l56v,REPORTED_DERIVATION,src_cabrita2007,sec8: Production of the TEV variants,VERIFIED
+edge_cab_q58f,cab_wt,cab_q58f,REPORTED_DERIVATION,src_cabrita2007,sec8: Production of the TEV variants,VERIFIED
+edge_cab_e106g,cab_wt,cab_e106g,REPORTED_DERIVATION,src_cabrita2007,sec8: Production of the TEV variants,VERIFIED
+edge_cab_s135g,cab_wt,cab_s135g,REPORTED_DERIVATION,src_cabrita2007,sec8: Production of the TEV variants,VERIFIED
+edge_cab_double,cab_wt,cab_double,REPORTED_DERIVATION,src_cabrita2007,sec8: Production of the TEV variants,VERIFIED
+edge_st_u1d,st_delta,st_u1d,REPORTED_DERIVATION,src_sanchez2020,S10/P29–P32: Protease and cleavage site sequences,VERIFIED
+edge_st_u2d,st_delta,st_u2d,REPORTED_DERIVATION,src_sanchez2020,S10/P29–P32: Protease and cleavage site sequences,VERIFIED
+edge_st_u1full,st_full,st_u1full,REPORTED_DERIVATION,src_sanchez2020,"S5/P20: Directed evolution of full-length, high-affinity TEV proteases",VERIFIED
+edge_st_u3,st_u1full,st_u3,REPORTED_EVOLUTION_TEMPLATE,src_sanchez2020,S5/P20; Methods P61 names uTEV3 instead (audit issue),PARTIAL
+edge_nam_v,nam_n,nam_v,REPORTED_DERIVATION,src_nam2020,feb412828-sec-0003: Cloning the mutant TEV protease gene,VERIFIED
+edge_yi_fast,yi_parent_v,yi_fast,REPORTED_DERIVATION,src_yi2013,Table 1 (t01); Results: engineering TEV-P variants,VERIFIED
+edge_golda_vg,golda_v,golda_vg,REPORTED_DERIVATION,src_p1specificity2024,Results: kinetic analysis; Materials: expression and purification,VERIFIED
+edge_dav_hexa,dav_triple,dav_hexa,REPORTED_DERIVATION,src_davis2025,"Introduction; Methods 5.1, 5.7; Figure 1",VERIFIED
+edge_mes_ting,mes_triple,mes_ting,REPORTED_DERIVATION,src_messing2024,Table 1 (T1); Methods: cloning,VERIFIED
+edge_mes_berg,mes_triple,mes_berg,REPORTED_DERIVATION,src_messing2024,Table 1 (T1); Methods: cloning,VERIFIED
+edge_mes_all,mes_triple,mes_all,REPORTED_DERIVATION,src_messing2024,Table 1 (T1); Methods: cloning,VERIFIED
+edge_pat_r49f_l76p,pat_control,pat_r49f_l76p,REPORTED_DERIVATION,src_patent2026,Sequence listing SEQ ID NO:11; PDF page 32 (printed page 18); continued PDF page 33,VERIFIED
+edge_pat_r49v_l76p,pat_control,pat_r49v_l76p,REPORTED_DERIVATION,src_patent2026,Sequence listing SEQ ID NO:12; PDF page 33 (printed page 19),VERIFIED
+edge_pat_r49v,pat_control,pat_r49v,REPORTED_DERIVATION,src_patent2026,Sequence listing SEQ ID NO:14; PDF page 33 (printed page 19),VERIFIED
+edge_pat_l76p,pat_control,pat_l76p,REPORTED_DERIVATION,src_patent2026,Sequence listing SEQ ID NO:15; PDF page 33 (printed page 19),VERIFIED

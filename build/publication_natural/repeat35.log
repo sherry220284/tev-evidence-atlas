@@ -1,0 +1,208 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    a2n15c3-Login (AVX512, FMA3, 503 GB RAM)
+Command: /gpfs/share/home/2601112662/TEV/.tools/iqtree-2.4.0/bin/iqtree2 -s /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.fasta -m LG+I+G4 -B 1000 --alrt 1000 -bnni -nt 2 -seed 20261029 -pre /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35 -redo
+Seed:    20261029 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct 30 11:38:57 2026
+Kernel:  AVX+FMA - 2 threads (64 CPU cores detected)
+
+Reading alignment file /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.fasta ... Fasta format detected
+Reading fasta file: done in 0.000144354 secs
+Alignment most likely contains protein sequences
+Alignment has 35 sequences with 290 columns, 283 distinct patterns
+223 parsimony-informative, 29 singleton sites, 38 constant sites
+WARNING: Some sequence names are changed as follows:
+hom_02c5165d0568400b|accession=P90245|taxid=103900|status=REVIEWED|duplicates=1 -> hom_02c5165d0568400b|accession_P90245|taxid_103900|status_REVIEWED|duplicates_1
+hom_05288bca8e7e11a4|accession=O11436|taxid=652106|status=REVIEWED|duplicates=1 -> hom_05288bca8e7e11a4|accession_O11436|taxid_652106|status_REVIEWED|duplicates_1
+hom_07b9e4be65c50dc2|accession=Q9YJW3|taxid=652104|status=REVIEWED|duplicates=1 -> hom_07b9e4be65c50dc2|accession_Q9YJW3|taxid_652104|status_REVIEWED|duplicates_1
+hom_0be3dc5400dfa587|accession=P17765|taxid=12197|status=REVIEWED|duplicates=1 -> hom_0be3dc5400dfa587|accession_P17765|taxid_12197|status_REVIEWED|duplicates_1
+hom_15833df6154fced6|accession=P04517|taxid=12227|status=REVIEWED|duplicates=1 -> hom_15833df6154fced6|accession_P04517|taxid_12227|status_REVIEWED|duplicates_1
+hom_1b57995c2f073fb6|accession=P13529|taxid=12212|status=REVIEWED|duplicates=1 -> hom_1b57995c2f073fb6|accession_P13529|taxid_12212|status_REVIEWED|duplicates_1
+hom_2100b4702d60ba0a|accession=P17766|taxid=12213|status=REVIEWED|duplicates=1 -> hom_2100b4702d60ba0a|accession_P17766|taxid_12213|status_REVIEWED|duplicates_1
+hom_213ca9c07e9cbfa8|accession=P31999|taxid=117132|status=REVIEWED|duplicates=1 -> hom_213ca9c07e9cbfa8|accession_P31999|taxid_117132|status_REVIEWED|duplicates_1
+hom_2221172957c9d2f0|accession=Q02963|taxid=31739|status=REVIEWED|duplicates=1 -> hom_2221172957c9d2f0|accession_Q02963|taxid_31739|status_REVIEWED|duplicates_1
+hom_255038a16e0c819a|accession=P17767|taxid=12214|status=REVIEWED|duplicates=1 -> hom_255038a16e0c819a|accession_P17767|taxid_12214|status_REVIEWED|duplicates_1
+hom_27b0c100d8143276|accession=Q01681|taxid=31738|status=REVIEWED|duplicates=1 -> hom_27b0c100d8143276|accession_Q01681|taxid_31738|status_REVIEWED|duplicates_1
+hom_314835e8dd8b1401|accession=Q01901|taxid=31731|status=REVIEWED|duplicates=1 -> hom_314835e8dd8b1401|accession_Q01901|taxid_31731|status_REVIEWED|duplicates_1
+hom_358f2554a87d94df|accession=P21231|taxid=12223|status=REVIEWED|duplicates=1 -> hom_358f2554a87d94df|accession_P21231|taxid_12223|status_REVIEWED|duplicates_1
+hom_36eb045a770634c6|accession=Q02597|taxid=36396|status=REVIEWED|duplicates=1 -> hom_36eb045a770634c6|accession_Q02597|taxid_36396|status_REVIEWED|duplicates_1
+hom_433142335025fcb5|accession=Q90069|taxid=103931|status=REVIEWED|duplicates=1 -> hom_433142335025fcb5|accession_Q90069|taxid_103931|status_REVIEWED|duplicates_1
+hom_55f9712f798d59fa|accession=P89509|taxid=12230|status=REVIEWED|duplicates=1 -> hom_55f9712f798d59fa|accession_P89509|taxid_12230|status_REVIEWED|duplicates_1
+hom_5c2cb140f709e363|accession=O56075|taxid=103926|status=REVIEWED|duplicates=1 -> hom_5c2cb140f709e363|accession_O56075|taxid_103926|status_REVIEWED|duplicates_1
+hom_6ce80faada1e3f2c|accession=P18247|taxid=12219|status=REVIEWED|duplicates=1 -> hom_6ce80faada1e3f2c|accession_P18247|taxid_12219|status_REVIEWED|duplicates_1
+hom_8a1a5192bcd9880d|accession=P29152|taxid=31736|status=REVIEWED|duplicates=1 -> hom_8a1a5192bcd9880d|accession_P29152|taxid_31736|status_REVIEWED|duplicates_1
+hom_8e2e2d18c9ab5768|accession=Q6XW15|taxid=114921|status=REVIEWED|duplicates=1 -> hom_8e2e2d18c9ab5768|accession_Q6XW15|taxid_114921|status_REVIEWED|duplicates_1
+hom_a7bad44d6cabe130|accession=P09814|taxid=12228|status=REVIEWED|duplicates=1 -> hom_a7bad44d6cabe130|accession_P09814|taxid_12228|status_REVIEWED|duplicates_1
+hom_a851be53fbd51773|accession=O36979|taxid=117130|status=REVIEWED|duplicates=1 -> hom_a851be53fbd51773|accession_O36979|taxid_117130|status_REVIEWED|duplicates_1
+hom_ad2f4dca4e030c6a|accession=Q65730|taxid=117138|status=REVIEWED|duplicates=1 -> hom_ad2f4dca4e030c6a|accession_Q65730|taxid_117138|status_REVIEWED|duplicates_1
+hom_ae2f5807398783f3|accession=P18479|taxid=117128|status=REVIEWED|duplicates=1 -> hom_ae2f5807398783f3|accession_P18479|taxid_117128|status_REVIEWED|duplicates_1
+hom_af5edf4ad568ba70|accession=Q84934|taxid=103927|status=REVIEWED|duplicates=1 -> hom_af5edf4ad568ba70|accession_Q84934|taxid_103927|status_REVIEWED|duplicates_1
+hom_b36568edcaed320b|accession=P20234|taxid=12204|status=REVIEWED|duplicates=1 -> hom_b36568edcaed320b|accession_P20234|taxid_12204|status_REVIEWED|duplicates_1
+hom_b9e893a1d5902949|accession=A4KZ49|taxid=1289472|status=REVIEWED|duplicates=1 -> hom_b9e893a1d5902949|accession_A4KZ49|taxid_1289472|status_REVIEWED|duplicates_1
+hom_bc4b1673cd431b8b|accession=Q89330|taxid=117129|status=REVIEWED|duplicates=1 -> hom_bc4b1673cd431b8b|accession_Q89330|taxid_117129|status_REVIEWED|duplicates_1
+hom_bcba0fab4f3ee2be|accession=Q01206|taxid=31729|status=REVIEWED|duplicates=1 -> hom_bcba0fab4f3ee2be|accession_Q01206|taxid_31729|status_REVIEWED|duplicates_1
+hom_c8290842219c7d14|accession=Q01500|taxid=31737|status=REVIEWED|duplicates=1 -> hom_c8290842219c7d14|accession_Q01500|taxid_31737|status_REVIEWED|duplicates_1
+hom_def70c0fcb6f82a5|accession=A0AUJ5|taxid=686949|status=REVIEWED|duplicates=1 -> hom_def70c0fcb6f82a5|accession_A0AUJ5|taxid_686949|status_REVIEWED|duplicates_1
+hom_e1ada197d847f9d4|accession=Q65399|taxid=500578|status=REVIEWED|duplicates=1 -> hom_e1ada197d847f9d4|accession_Q65399|taxid_500578|status_REVIEWED|duplicates_1
+hom_ef44a2ab6e6697d2|accession=P89876|taxid=117131|status=REVIEWED|duplicates=1 -> hom_ef44a2ab6e6697d2|accession_P89876|taxid_117131|status_REVIEWED|duplicates_1
+hom_f1e21cd5fe4fa790|accession=Q85197|taxid=12215|status=REVIEWED|duplicates=1 -> hom_f1e21cd5fe4fa790|accession_Q85197|taxid_12215|status_REVIEWED|duplicates_1
+hom_f33fb27584a289e4|accession=Q04574|taxid=31728|status=REVIEWED|duplicates=1 -> hom_f33fb27584a289e4|accession_Q04574|taxid_31728|status_REVIEWED|duplicates_1
+
+                                                                                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.02329e-05 secs using 97.72% CPU
+   1  hom_02c5165d0568400b|accession_P90245|taxid_103900|status_REVIEWED|duplicates_1    17.24%    passed     28.66%
+   2  hom_05288bca8e7e11a4|accession_O11436|taxid_652106|status_REVIEWED|duplicates_1    16.90%    passed     62.72%
+   3  hom_07b9e4be65c50dc2|accession_Q9YJW3|taxid_652104|status_REVIEWED|duplicates_1    22.76%    passed     23.12%
+   4  hom_0be3dc5400dfa587|accession_P17765|taxid_12197|status_REVIEWED|duplicates_1     16.21%    passed     85.84%
+   5  hom_15833df6154fced6|accession_P04517|taxid_12227|status_REVIEWED|duplicates_1     16.55%    passed     93.76%
+   6  hom_1b57995c2f073fb6|accession_P13529|taxid_12212|status_REVIEWED|duplicates_1     16.21%    passed     95.24%
+   7  hom_2100b4702d60ba0a|accession_P17766|taxid_12213|status_REVIEWED|duplicates_1     16.21%    passed     93.14%
+   8  hom_213ca9c07e9cbfa8|accession_P31999|taxid_117132|status_REVIEWED|duplicates_1    16.21%    passed     99.99%
+   9  hom_2221172957c9d2f0|accession_Q02963|taxid_31739|status_REVIEWED|duplicates_1     15.86%    passed     99.67%
+  10  hom_255038a16e0c819a|accession_P17767|taxid_12214|status_REVIEWED|duplicates_1     16.21%    passed     95.70%
+  11  hom_27b0c100d8143276|accession_Q01681|taxid_31738|status_REVIEWED|duplicates_1     16.21%    passed     95.81%
+  12  hom_314835e8dd8b1401|accession_Q01901|taxid_31731|status_REVIEWED|duplicates_1     17.93%    passed     93.71%
+  13  hom_358f2554a87d94df|accession_P21231|taxid_12223|status_REVIEWED|duplicates_1     16.21%    passed     86.93%
+  14  hom_36eb045a770634c6|accession_Q02597|taxid_36396|status_REVIEWED|duplicates_1     16.21%    passed     98.71%
+  15  hom_433142335025fcb5|accession_Q90069|taxid_103931|status_REVIEWED|duplicates_1    16.21%    passed     89.18%
+  16  hom_55f9712f798d59fa|accession_P89509|taxid_12230|status_REVIEWED|duplicates_1     16.21%    passed     98.57%
+  17  hom_5c2cb140f709e363|accession_O56075|taxid_103926|status_REVIEWED|duplicates_1    15.17%    passed     96.83%
+  18  hom_6ce80faada1e3f2c|accession_P18247|taxid_12219|status_REVIEWED|duplicates_1     15.86%    passed     99.42%
+  19  hom_8a1a5192bcd9880d|accession_P29152|taxid_31736|status_REVIEWED|duplicates_1     15.17%    passed     83.47%
+  20  hom_8e2e2d18c9ab5768|accession_Q6XW15|taxid_114921|status_REVIEWED|duplicates_1    14.83%    passed     99.86%
+  21  hom_a7bad44d6cabe130|accession_P09814|taxid_12228|status_REVIEWED|duplicates_1     16.90%    passed     96.95%
+  22  hom_a851be53fbd51773|accession_O36979|taxid_117130|status_REVIEWED|duplicates_1    16.21%    passed     97.56%
+  23  hom_ad2f4dca4e030c6a|accession_Q65730|taxid_117138|status_REVIEWED|duplicates_1    18.97%    passed     91.82%
+  24  hom_ae2f5807398783f3|accession_P18479|taxid_117128|status_REVIEWED|duplicates_1    16.21%    passed     99.31%
+  25  hom_af5edf4ad568ba70|accession_Q84934|taxid_103927|status_REVIEWED|duplicates_1    16.21%    passed     93.76%
+  26  hom_b36568edcaed320b|accession_P20234|taxid_12204|status_REVIEWED|duplicates_1     16.21%    passed     90.24%
+  27  hom_b9e893a1d5902949|accession_A4KZ49|taxid_1289472|status_REVIEWED|duplicates_1   19.66%    passed     19.22%
+  28  hom_bc4b1673cd431b8b|accession_Q89330|taxid_117129|status_REVIEWED|duplicates_1    16.21%    passed     99.80%
+  29  hom_bcba0fab4f3ee2be|accession_Q01206|taxid_31729|status_REVIEWED|duplicates_1     14.48%    passed     10.13%
+  30  hom_c8290842219c7d14|accession_Q01500|taxid_31737|status_REVIEWED|duplicates_1     15.17%    passed     99.75%
+  31  hom_def70c0fcb6f82a5|accession_A0AUJ5|taxid_686949|status_REVIEWED|duplicates_1    18.28%    passed     24.80%
+  32  hom_e1ada197d847f9d4|accession_Q65399|taxid_500578|status_REVIEWED|duplicates_1    16.21%    passed     97.85%
+  33  hom_ef44a2ab6e6697d2|accession_P89876|taxid_117131|status_REVIEWED|duplicates_1    16.21%    passed     99.98%
+  34  hom_f1e21cd5fe4fa790|accession_Q85197|taxid_12215|status_REVIEWED|duplicates_1     16.21%    passed     94.00%
+  35  hom_f33fb27584a289e4|accession_Q04574|taxid_31728|status_REVIEWED|duplicates_1     14.14%    passed     20.85%
+****  TOTAL                                                                              16.50%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 20261029)...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 1.305 / LogL: -10486.246
+Init pinv, alpha: 0.015, 1.000 / Estimate: 0.024, 1.645 / LogL: -10481.001
+Init pinv, alpha: 0.029, 1.000 / Estimate: 0.024, 1.649 / LogL: -10480.997
+Init pinv, alpha: 0.044, 1.000 / Estimate: 0.024, 1.650 / LogL: -10480.997
+Init pinv, alpha: 0.058, 1.000 / Estimate: 0.025, 1.651 / LogL: -10480.997
+Init pinv, alpha: 0.073, 1.000 / Estimate: 0.025, 1.652 / LogL: -10480.997
+Init pinv, alpha: 0.087, 1.000 / Estimate: 0.025, 1.653 / LogL: -10480.998
+Init pinv, alpha: 0.102, 1.000 / Estimate: 0.025, 1.654 / LogL: -10480.998
+Init pinv, alpha: 0.116, 1.000 / Estimate: 0.025, 1.655 / LogL: -10480.999
+Init pinv, alpha: 0.131, 1.000 / Estimate: 0.025, 1.655 / LogL: -10481.000
+Optimal pinv,alpha: 0.024, 1.650 / LogL: -10480.997
+
+Parameters optimization took 2.395 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0585268 secs using 200.2% CPU
+Computing ML distances took 0.058658 sec (of wall-clock time) 0.117291 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000135784 secs using 161.3% CPU
+Computing RapidNJ tree took 0.003629 sec (of wall-clock time) 0.004496 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -10483.988
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.250 second
+Computing log-likelihood of 98 initial trees ... 1.316 seconds
+Current best score: -10480.997
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10466.481
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -10446.126
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -10445.623
+UPDATE BEST LOG-LIKELIHOOD: -10445.623
+Iteration 10 / LogL: -10463.280 / Time: 0h:0m:7s
+Iteration 20 / LogL: -10451.989 / Time: 0h:0m:10s
+Finish initializing candidate tree set (10)
+Current best tree score: -10445.623 / CPU time: 7.883
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -10445.623
+Iteration 30 / LogL: -10446.864 / Time: 0h:0m:13s (0h:0m:35s left)
+Iteration 40 / LogL: -10445.624 / Time: 0h:0m:17s (0h:0m:28s left)
+UPDATE BEST LOG-LIKELIHOOD: -10445.623
+Iteration 50 / LogL: -10446.375 / Time: 0h:0m:21s (0h:0m:23s left)
+Iteration 60 / LogL: -10445.623 / Time: 0h:0m:24s (0h:0m:17s left)
+Iteration 70 / LogL: -10547.111 / Time: 0h:0m:27s (0h:0m:13s left)
+Iteration 80 / LogL: -10445.623 / Time: 0h:0m:30s (0h:0m:8s left)
+Iteration 90 / LogL: -10445.623 / Time: 0h:0m:33s (0h:0m:4s left)
+Iteration 100 / LogL: -10445.624 / Time: 0h:0m:36s (0h:0m:1s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 966 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 104 ITERATIONS / Time: 0h:1m:24s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10445.623
+Optimal log-likelihood: -10445.623
+Proportion of invariable sites: 0.024
+Gamma shape alpha: 1.638
+Parameters optimization took 1 rounds (0.035 sec)
+BEST SCORE FOUND : -10445.623
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.114 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.splits.nex
+Total tree length: 20.512
+
+Total number of iterations: 104
+CPU time used for tree search: 163.086 sec (0h:2m:43s)
+Wall-clock time used for tree search: 82.425 sec (0h:1m:22s)
+Total CPU time used: 168.502 sec (0h:2m:48s)
+Total wall-clock time used: 85.196 sec (0h:1m:25s)
+UFBoot trees printed to /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.splits.nex...
+35 taxa and 308 splits.
+Consensus tree written to /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.contree
+Reading input trees file /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.contree
+Log-likelihood of consensus tree: -10446.449
+
+Analysis results written to: 
+  IQ-TREE report:                /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.iqtree
+  Maximum-likelihood tree:       /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.treefile
+  Likelihood distances:          /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.splits.nex
+  Consensus tree:                /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.contree
+  UFBoot trees:                  /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.ufboot
+  Screen log file:               /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.log
+
+Date and Time: Fri Oct 30 11:40:22 2026

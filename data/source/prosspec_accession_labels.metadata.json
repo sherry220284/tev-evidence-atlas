@@ -1,0 +1,10 @@
+{
+  "source_doi": "10.1038/s41467-026-69961-5",
+  "data_doi": "10.5281/zenodo.15039890",
+  "url": "https://zenodo.org/records/15039890/files/MSAs.zip?download=1",
+  "zip_sha256": "27ab9274117b71a37c15a7a089fc82136b2a962183a70b54b6e412f1dc72b530",
+  "member": "MSAs/concatenated_sequences.fasta",
+  "member_sha256": "d03c8f295851cff0a25f8cd268b571893ec31188ffe79a5258967108c26cd6a4",
+  "extraction": "FASTA header first whitespace-delimited field, without >; duplicate labels preserved",
+  "boundary": "Derived accession identifiers only; no paired sequences or figures redistributed"
+}

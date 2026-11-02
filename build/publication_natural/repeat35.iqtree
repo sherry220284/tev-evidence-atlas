@@ -1,0 +1,254 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 20261029
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 35 sequences with 290 amino-acid sites
+Number of constant sites: 38 (= 13.1034% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 38 (= 13.1034% of all sites)
+Number of parsimony informative sites: 223
+Number of distinct site patterns: 283
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0242
+Gamma shape alpha: 1.6384
+
+ Category  Relative_rate  Proportion
+  0         0              0.0242
+  1         0.2520         0.2439
+  2         0.6252         0.2439
+  3         1.0839         0.2439
+  4         2.1382         0.2439
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10445.6226 (s.e. 354.0913)
+Unconstrained log-likelihood (without tree): -1634.0382
+Number of free parameters (#branches + #model parameters): 69
+Akaike information criterion (AIC) score: 21029.2452
+Corrected Akaike information criterion (AICc) score: 21073.1543
+Bayesian information criterion (BIC) score: 21282.4670
+
+Total tree length (sum of branch lengths): 20.5122
+Sum of internal branch lengths: 8.4733 (41.3087% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0034) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'hom_02c5165d0568400b|accession_P90245|taxid_103900|status_REVIEWED|duplicates_1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-----hom_02c5165d0568400b|accession_P90245|taxid_103900|status_REVIEWED|duplicates_1
+|
+|                                        +---------hom_05288bca8e7e11a4|accession_O11436|taxid_652106|status_REVIEWED|duplicates_1
+|                             +----------| (98.8/99)
+|                             |          |                       +--------hom_0be3dc5400dfa587|accession_P17765|taxid_12197|status_REVIEWED|duplicates_1
+|                             |          |                    +--| (58.8/56)
+|                             |          |                    |  +----hom_a7bad44d6cabe130|accession_P09814|taxid_12228|status_REVIEWED|duplicates_1
+|                             |          |                 +--| (31.6/32)
+|                             |          |                 |  +---hom_f1e21cd5fe4fa790|accession_Q85197|taxid_12215|status_REVIEWED|duplicates_1
+|                             |          |              +--| (93/38)
+|                             |          |              |  +----hom_15833df6154fced6|accession_P04517|taxid_12227|status_REVIEWED|duplicates_1
+|                             |          |           +--| (80.7/26)
+|                             |          |           |  |    +--hom_36eb045a770634c6|accession_Q02597|taxid_36396|status_REVIEWED|duplicates_1
+|                             |          |           |  +----| (100/100)
+|                             |          |           |       +**hom_55f9712f798d59fa|accession_P89509|taxid_12230|status_REVIEWED|duplicates_1
+|                             |          |        +--| (34.9/16)
+|                             |          |        |  |                 +**hom_1b57995c2f073fb6|accession_P13529|taxid_12212|status_REVIEWED|duplicates_1
+|                             |          |        |  |              +**| (0/75)
+|                             |          |        |  |              |  +--hom_255038a16e0c819a|accession_P17767|taxid_12214|status_REVIEWED|duplicates_1
+|                             |          |        |  |           +--| (34.8/55)
+|                             |          |        |  |           |  +--hom_af5edf4ad568ba70|accession_Q84934|taxid_103927|status_REVIEWED|duplicates_1
+|                             |          |        |  |        +--| (88.3/91)
+|                             |          |        |  |        |  +**hom_2100b4702d60ba0a|accession_P17766|taxid_12213|status_REVIEWED|duplicates_1
+|                             |          |        |  |     +--| (100/100)
+|                             |          |        |  |     |  +--hom_27b0c100d8143276|accession_Q01681|taxid_31738|status_REVIEWED|duplicates_1
+|                             |          |        |  |  +--| (18.2/51)
+|                             |          |        |  |  |  |      +--hom_2221172957c9d2f0|accession_Q02963|taxid_31739|status_REVIEWED|duplicates_1
+|                             |          |        |  |  |  |   +--| (99.8/100)
+|                             |          |        |  |  |  |   |  +--hom_6ce80faada1e3f2c|accession_P18247|taxid_12219|status_REVIEWED|duplicates_1
+|                             |          |        |  |  |  +---| (100/100)
+|                             |          |        |  |  |      +--hom_c8290842219c7d14|accession_Q01500|taxid_31737|status_REVIEWED|duplicates_1
+|                             |          |        |  +--| (91.3/69)
+|                             |          |        |     |    +--hom_213ca9c07e9cbfa8|accession_P31999|taxid_117132|status_REVIEWED|duplicates_1
+|                             |          |        |     +----| (100/100)
+|                             |          |        |          +**hom_ef44a2ab6e6697d2|accession_P89876|taxid_117131|status_REVIEWED|duplicates_1
+|                             |          |     +--| (97.6/73)
+|                             |          |     |  |  +------hom_314835e8dd8b1401|accession_Q01901|taxid_31731|status_REVIEWED|duplicates_1
+|                             |          |     |  +--| (99.7/99)
+|                             |          |     |     +--hom_b36568edcaed320b|accession_P20234|taxid_12204|status_REVIEWED|duplicates_1
+|                             |          |  +--| (80.6/61)
+|                             |          |  |  |           +**hom_358f2554a87d94df|accession_P21231|taxid_12223|status_REVIEWED|duplicates_1
+|                             |          |  |  |        +--| (99.7/100)
+|                             |          |  |  |        |  +--hom_433142335025fcb5|accession_Q90069|taxid_103931|status_REVIEWED|duplicates_1
+|                             |          |  |  |     +--| (97.7/98)
+|                             |          |  |  |     |  +--hom_e1ada197d847f9d4|accession_Q65399|taxid_500578|status_REVIEWED|duplicates_1
+|                             |          |  |  |  +--| (99.9/100)
+|                             |          |  |  |  |  |  +--hom_a851be53fbd51773|accession_O36979|taxid_117130|status_REVIEWED|duplicates_1
+|                             |          |  |  |  |  +--| (100/100)
+|                             |          |  |  |  |     |  +--hom_ae2f5807398783f3|accession_P18479|taxid_117128|status_REVIEWED|duplicates_1
+|                             |          |  |  |  |     +**| (0/81)
+|                             |          |  |  |  |        +--hom_bc4b1673cd431b8b|accession_Q89330|taxid_117129|status_REVIEWED|duplicates_1
+|                             |          |  |  +--| (87.2/81)
+|                             |          |  |     |  +-----hom_5c2cb140f709e363|accession_O56075|taxid_103926|status_REVIEWED|duplicates_1
+|                             |          |  |     +--| (93/95)
+|                             |          |  |        +---hom_8e2e2d18c9ab5768|accession_Q6XW15|taxid_114921|status_REVIEWED|duplicates_1
+|                             |          +--| (80/66)
+|                             |             +--------hom_8a1a5192bcd9880d|accession_P29152|taxid_31736|status_REVIEWED|duplicates_1
+|                         +---| (84.4/54)
+|                         |   +--------------------hom_ad2f4dca4e030c6a|accession_Q65730|taxid_117138|status_REVIEWED|duplicates_1
+|                      +**| (0/27)
+|                      |  +----------------------hom_b9e893a1d5902949|accession_A4KZ49|taxid_1289472|status_REVIEWED|duplicates_1
++----------------------| (100/100)
+|                      +---------------------------hom_def70c0fcb6f82a5|accession_A0AUJ5|taxid_686949|status_REVIEWED|duplicates_1
+|
+|                 +--hom_07b9e4be65c50dc2|accession_Q9YJW3|taxid_652104|status_REVIEWED|duplicates_1
+|              +--| (92.4/100)
+|              |  +--hom_bcba0fab4f3ee2be|accession_Q01206|taxid_31729|status_REVIEWED|duplicates_1
++--------------| (99.7/100)
+               +--hom_f33fb27584a289e4|accession_Q04574|taxid_31728|status_REVIEWED|duplicates_1
+
+Tree in newick format:
+
+(hom_02c5165d0568400b|accession_P90245|taxid_103900|status_REVIEWED|duplicates_1:0.5248242287,((((hom_05288bca8e7e11a4|accession_O11436|taxid_652106|status_REVIEWED|duplicates_1:0.8247898578,((((((((hom_0be3dc5400dfa587|accession_P17765|taxid_12197|status_REVIEWED|duplicates_1:0.7638817437,hom_a7bad44d6cabe130|accession_P09814|taxid_12228|status_REVIEWED|duplicates_1:0.3908330941)58.8/56:0.1476224138,hom_f1e21cd5fe4fa790|accession_Q85197|taxid_12215|status_REVIEWED|duplicates_1:0.3233108419)31.6/32:0.0399200880,hom_15833df6154fced6|accession_P04517|taxid_12227|status_REVIEWED|duplicates_1:0.4020383608)93/38:0.1085115956,(hom_36eb045a770634c6|accession_Q02597|taxid_36396|status_REVIEWED|duplicates_1:0.0155740636,hom_55f9712f798d59fa|accession_P89509|taxid_12230|status_REVIEWED|duplicates_1:0.0021010169)100/100:0.4273882456)80.7/26:0.0507238634,((((((hom_1b57995c2f073fb6|accession_P13529|taxid_12212|status_REVIEWED|duplicates_1:0.0000010000,hom_255038a16e0c819a|accession_P17767|taxid_12214|status_REVIEWED|duplicates_1:0.0041550753)0/75:0.0000010000,hom_af5edf4ad568ba70|accession_Q84934|taxid_103927|status_REVIEWED|duplicates_1:0.0391297624)34.8/55:0.0041479481,hom_2100b4702d60ba0a|accession_P17766|taxid_12213|status_REVIEWED|duplicates_1:0.0000010000)88.3/91:0.0309607225,hom_27b0c100d8143276|accession_Q01681|taxid_31738|status_REVIEWED|duplicates_1:0.0208786418)100/100:0.2964030833,((hom_2221172957c9d2f0|accession_Q02963|taxid_31739|status_REVIEWED|duplicates_1:0.0430193949,hom_6ce80faada1e3f2c|accession_P18247|taxid_12219|status_REVIEWED|duplicates_1:0.0374036546)99.8/100:0.2491236229,hom_c8290842219c7d14|accession_Q01500|taxid_31737|status_REVIEWED|duplicates_1:0.2603178619)100/100:0.3731710012)18.2/51:0.0566405496,(hom_213ca9c07e9cbfa8|accession_P31999|taxid_117132|status_REVIEWED|duplicates_1:0.0051878442,hom_ef44a2ab6e6697d2|accession_P89876|taxid_117131|status_REVIEWED|duplicates_1:0.0031350267)100/100:0.4508610806)91.3/69:0.0822039641)34.9/16:0.0455349219,(hom_314835e8dd8b1401|accession_Q01901|taxid_31731|status_REVIEWED|duplicates_1:0.5803301914,hom_b36568edcaed320b|accession_P20234|taxid_12204|status_REVIEWED|duplicates_1:0.2044949928)99.7/99:0.3107624859)97.6/73:0.1558423761,((((hom_358f2554a87d94df|accession_P21231|taxid_12223|status_REVIEWED|duplicates_1:0.0000010000,hom_433142335025fcb5|accession_Q90069|taxid_103931|status_REVIEWED|duplicates_1:0.0042039508)99.7/100:0.1664034132,hom_e1ada197d847f9d4|accession_Q65399|taxid_500578|status_REVIEWED|duplicates_1:0.1345675191)97.7/98:0.1425462314,(hom_a851be53fbd51773|accession_O36979|taxid_117130|status_REVIEWED|duplicates_1:0.0185476779,(hom_ae2f5807398783f3|accession_P18479|taxid_117128|status_REVIEWED|duplicates_1:0.0185501790,hom_bc4b1673cd431b8b|accession_Q89330|taxid_117129|status_REVIEWED|duplicates_1:0.0524292756)0/81:0.0027966958)100/100:0.2186419782)99.9/100:0.2497377109,(hom_5c2cb140f709e363|accession_O56075|taxid_103926|status_REVIEWED|duplicates_1:0.4948203117,hom_8e2e2d18c9ab5768|accession_Q6XW15|taxid_114921|status_REVIEWED|duplicates_1:0.3196420160)93/95:0.1223455893)87.2/81:0.0858544822)80.6/61:0.0986317551,hom_8a1a5192bcd9880d|accession_P29152|taxid_31736|status_REVIEWED|duplicates_1:0.7251564204)80/66:0.2219214402)98.8/99:0.8747044633,hom_ad2f4dca4e030c6a|accession_Q65730|taxid_117138|status_REVIEWED|duplicates_1:1.6826487666)84.4/54:0.3568185342,hom_b9e893a1d5902949|accession_A4KZ49|taxid_1289472|status_REVIEWED|duplicates_1:1.8582560018)0/27:0.0000026239,hom_def70c0fcb6f82a5|accession_A0AUJ5|taxid_686949|status_REVIEWED|duplicates_1:2.2340885293)100/100:1.8230932360,((hom_07b9e4be65c50dc2|accession_Q9YJW3|taxid_652104|status_REVIEWED|duplicates_1:0.0107206032,hom_bcba0fab4f3ee2be|accession_Q01206|taxid_31729|status_REVIEWED|duplicates_1:0.0252458049)92.4/100:0.0822393650,hom_f33fb27584a289e4|accession_Q04574|taxid_31728|status_REVIEWED|duplicates_1:0.0145923375)99.7/100:1.1977553220);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10446.448876
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----hom_02c5165d0568400b|accession_P90245|taxid_103900|status_REVIEWED|duplicates_1
+|
+|                                        +---------hom_05288bca8e7e11a4|accession_O11436|taxid_652106|status_REVIEWED|duplicates_1
+|                             +----------| (99)
+|                             |          |                    +--------hom_0be3dc5400dfa587|accession_P17765|taxid_12197|status_REVIEWED|duplicates_1
+|                             |          |                 +--| (56)
+|                             |          |                 |  +----hom_a7bad44d6cabe130|accession_P09814|taxid_12228|status_REVIEWED|duplicates_1
+|                             |          |              +--| (32)
+|                             |          |              |  +---hom_f1e21cd5fe4fa790|accession_Q85197|taxid_12215|status_REVIEWED|duplicates_1
+|                             |          |           +--| (38)
+|                             |          |           |  +----hom_15833df6154fced6|accession_P04517|taxid_12227|status_REVIEWED|duplicates_1
+|                             |          |        +--| (26)
+|                             |          |        |  |    +--hom_36eb045a770634c6|accession_Q02597|taxid_36396|status_REVIEWED|duplicates_1
+|                             |          |        |  +----| (100)
+|                             |          |        |       +--hom_55f9712f798d59fa|accession_P89509|taxid_12230|status_REVIEWED|duplicates_1
+|                             |          |     +--| (73)
+|                             |          |     |  |                    +--hom_1b57995c2f073fb6|accession_P13529|taxid_12212|status_REVIEWED|duplicates_1
+|                             |          |     |  |                 +--| (75)
+|                             |          |     |  |                 |  +--hom_255038a16e0c819a|accession_P17767|taxid_12214|status_REVIEWED|duplicates_1
+|                             |          |     |  |              +--| (55)
+|                             |          |     |  |              |  +--hom_af5edf4ad568ba70|accession_Q84934|taxid_103927|status_REVIEWED|duplicates_1
+|                             |          |     |  |           +--| (91)
+|                             |          |     |  |           |  +--hom_2100b4702d60ba0a|accession_P17766|taxid_12213|status_REVIEWED|duplicates_1
+|                             |          |     |  |        +--| (100)
+|                             |          |     |  |        |  +--hom_27b0c100d8143276|accession_Q01681|taxid_31738|status_REVIEWED|duplicates_1
+|                             |          |     |  |     +--| (51)
+|                             |          |     |  |     |  |      +--hom_2221172957c9d2f0|accession_Q02963|taxid_31739|status_REVIEWED|duplicates_1
+|                             |          |     |  |     |  |   +--| (100)
+|                             |          |     |  |     |  |   |  +--hom_6ce80faada1e3f2c|accession_P18247|taxid_12219|status_REVIEWED|duplicates_1
+|                             |          |     |  |     |  +---| (100)
+|                             |          |     |  |     |      +--hom_c8290842219c7d14|accession_Q01500|taxid_31737|status_REVIEWED|duplicates_1
+|                             |          |     |  |  +--| (69)
+|                             |          |     |  |  |  |    +--hom_213ca9c07e9cbfa8|accession_P31999|taxid_117132|status_REVIEWED|duplicates_1
+|                             |          |     |  |  |  +----| (100)
+|                             |          |     |  |  |       +--hom_ef44a2ab6e6697d2|accession_P89876|taxid_117131|status_REVIEWED|duplicates_1
+|                             |          |     |  +--| (19)
+|                             |          |     |     |   +------hom_314835e8dd8b1401|accession_Q01901|taxid_31731|status_REVIEWED|duplicates_1
+|                             |          |     |     +---| (99)
+|                             |          |     |         +--hom_b36568edcaed320b|accession_P20234|taxid_12204|status_REVIEWED|duplicates_1
+|                             |          |  +--| (61)
+|                             |          |  |  |           +--hom_358f2554a87d94df|accession_P21231|taxid_12223|status_REVIEWED|duplicates_1
+|                             |          |  |  |        +--| (100)
+|                             |          |  |  |        |  +--hom_433142335025fcb5|accession_Q90069|taxid_103931|status_REVIEWED|duplicates_1
+|                             |          |  |  |     +--| (98)
+|                             |          |  |  |     |  +--hom_e1ada197d847f9d4|accession_Q65399|taxid_500578|status_REVIEWED|duplicates_1
+|                             |          |  |  |  +--| (100)
+|                             |          |  |  |  |  |  +--hom_a851be53fbd51773|accession_O36979|taxid_117130|status_REVIEWED|duplicates_1
+|                             |          |  |  |  |  +--| (100)
+|                             |          |  |  |  |     |  +--hom_ae2f5807398783f3|accession_P18479|taxid_117128|status_REVIEWED|duplicates_1
+|                             |          |  |  |  |     +--| (81)
+|                             |          |  |  |  |        +--hom_bc4b1673cd431b8b|accession_Q89330|taxid_117129|status_REVIEWED|duplicates_1
+|                             |          |  |  +--| (81)
+|                             |          |  |     |  +-----hom_5c2cb140f709e363|accession_O56075|taxid_103926|status_REVIEWED|duplicates_1
+|                             |          |  |     +--| (95)
+|                             |          |  |        +---hom_8e2e2d18c9ab5768|accession_Q6XW15|taxid_114921|status_REVIEWED|duplicates_1
+|                             |          +--| (66)
+|                             |             +--------hom_8a1a5192bcd9880d|accession_P29152|taxid_31736|status_REVIEWED|duplicates_1
+|                         +---| (54)
+|                         |   +--------------------hom_ad2f4dca4e030c6a|accession_Q65730|taxid_117138|status_REVIEWED|duplicates_1
+|                      +--| (27)
+|                      |  +----------------------hom_b9e893a1d5902949|accession_A4KZ49|taxid_1289472|status_REVIEWED|duplicates_1
++----------------------| (100)
+|                      +---------------------------hom_def70c0fcb6f82a5|accession_A0AUJ5|taxid_686949|status_REVIEWED|duplicates_1
+|
+|                 +--hom_07b9e4be65c50dc2|accession_Q9YJW3|taxid_652104|status_REVIEWED|duplicates_1
+|              +--| (100)
+|              |  +--hom_bcba0fab4f3ee2be|accession_Q01206|taxid_31729|status_REVIEWED|duplicates_1
++--------------| (100)
+               +--hom_f33fb27584a289e4|accession_Q04574|taxid_31728|status_REVIEWED|duplicates_1
+
+
+Consensus tree in newick format: 
+
+(hom_02c5165d0568400b|accession_P90245|taxid_103900|status_REVIEWED|duplicates_1:0.5224489438,((((hom_05288bca8e7e11a4|accession_O11436|taxid_652106|status_REVIEWED|duplicates_1:0.8285331614,(((((((hom_0be3dc5400dfa587|accession_P17765|taxid_12197|status_REVIEWED|duplicates_1:0.7612292522,hom_a7bad44d6cabe130|accession_P09814|taxid_12228|status_REVIEWED|duplicates_1:0.3922203732)56:0.1449123865,hom_f1e21cd5fe4fa790|accession_Q85197|taxid_12215|status_REVIEWED|duplicates_1:0.3260905318)32:0.0439985851,hom_15833df6154fced6|accession_P04517|taxid_12227|status_REVIEWED|duplicates_1:0.3977431565)38:0.1067239101,(hom_36eb045a770634c6|accession_Q02597|taxid_36396|status_REVIEWED|duplicates_1:0.0143089889,hom_55f9712f798d59fa|accession_P89509|taxid_12230|status_REVIEWED|duplicates_1:0.0032083018)100:0.4294156589)26:0.0529128987,(((((((hom_1b57995c2f073fb6|accession_P13529|taxid_12212|status_REVIEWED|duplicates_1:0.0000026882,hom_255038a16e0c819a|accession_P17767|taxid_12214|status_REVIEWED|duplicates_1:0.0041488702)75:0.0000026935,hom_af5edf4ad568ba70|accession_Q84934|taxid_103927|status_REVIEWED|duplicates_1:0.0390747614)55:0.0041417644,hom_2100b4702d60ba0a|accession_P17766|taxid_12213|status_REVIEWED|duplicates_1:0.0000026935)91:0.0311827203,hom_27b0c100d8143276|accession_Q01681|taxid_31738|status_REVIEWED|duplicates_1:0.0205947920)100:0.2992009259,((hom_2221172957c9d2f0|accession_Q02963|taxid_31739|status_REVIEWED|duplicates_1:0.0428476228,hom_6ce80faada1e3f2c|accession_P18247|taxid_12219|status_REVIEWED|duplicates_1:0.0375375442)100:0.2502021782,hom_c8290842219c7d14|accession_Q01500|taxid_31737|status_REVIEWED|duplicates_1:0.2588894178)100:0.3720781210)51:0.0525145347,(hom_213ca9c07e9cbfa8|accession_P31999|taxid_117132|status_REVIEWED|duplicates_1:0.0051734902,hom_ef44a2ab6e6697d2|accession_P89876|taxid_117131|status_REVIEWED|duplicates_1:0.0031437190)100:0.4543531551)69:0.0764833576,(hom_314835e8dd8b1401|accession_Q01901|taxid_31731|status_REVIEWED|duplicates_1:0.5884582609,hom_b36568edcaed320b|accession_P20234|taxid_12204|status_REVIEWED|duplicates_1:0.1946081409)99:0.3285959600)19:0.0181083253)73:0.1797474900,((((hom_358f2554a87d94df|accession_P21231|taxid_12223|status_REVIEWED|duplicates_1:0.0000026882,hom_433142335025fcb5|accession_Q90069|taxid_103931|status_REVIEWED|duplicates_1:0.0042053092)100:0.1665039180,hom_e1ada197d847f9d4|accession_Q65399|taxid_500578|status_REVIEWED|duplicates_1:0.1345879834)98:0.1409505227,(hom_a851be53fbd51773|accession_O36979|taxid_117130|status_REVIEWED|duplicates_1:0.0184875639,(hom_ae2f5807398783f3|accession_P18479|taxid_117128|status_REVIEWED|duplicates_1:0.0185040305,hom_bc4b1673cd431b8b|accession_Q89330|taxid_117129|status_REVIEWED|duplicates_1:0.0523821237)81:0.0028756061)100:0.2200860652)100:0.2534944474,(hom_5c2cb140f709e363|accession_O56075|taxid_103926|status_REVIEWED|duplicates_1:0.4966127056,hom_8e2e2d18c9ab5768|accession_Q6XW15|taxid_114921|status_REVIEWED|duplicates_1:0.3162086495)95:0.1217438635)81:0.0886477699)61:0.0945974165,hom_8a1a5192bcd9880d|accession_P29152|taxid_31736|status_REVIEWED|duplicates_1:0.7275066049)66:0.2214030427)99:0.8646880908,hom_ad2f4dca4e030c6a|accession_Q65730|taxid_117138|status_REVIEWED|duplicates_1:1.6790060069)54:0.3585531226,hom_b9e893a1d5902949|accession_A4KZ49|taxid_1289472|status_REVIEWED|duplicates_1:1.8536079157)27:0.0000026706,hom_def70c0fcb6f82a5|accession_A0AUJ5|taxid_686949|status_REVIEWED|duplicates_1:2.2320677743)100:1.8206252225,((hom_07b9e4be65c50dc2|accession_Q9YJW3|taxid_652104|status_REVIEWED|duplicates_1:0.0107184172,hom_bcba0fab4f3ee2be|accession_Q01206|taxid_31729|status_REVIEWED|duplicates_1:0.0252408786)100:0.0822139708,hom_f33fb27584a289e4|accession_Q04574|taxid_31728|status_REVIEWED|duplicates_1:0.0146131839)100:1.1976129440);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.treefile -m "LG+I{0.024246}+G4{1.63839}" --length 290
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /gpfs/share/home/2601112662/TEV/build/publication_natural/repeat35.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Oct 30 11:40:22 2026
+Total CPU time used: 168.501901 seconds (0h:2m:48s)
+Total wall-clock time used: 85.37257792 seconds (0h:1m:25s)
+

@@ -1,0 +1,42 @@
+{
+  "source": {
+    "source_id": "src_neb_p8118_spec",
+    "source_type": "VENDOR_SPECIFICATION",
+    "title": "NEB Cold-Active TEV Protease Product Specification PS-P8118S/L v1.0",
+    "uri": "https://www.neb.com/en/-/media/catalog/specifications/p/8/p8118s_l_v1.pdf",
+    "local_path": "build/revision2/neb_p8118_spec.pdf",
+    "access_date": "2026-11-02",
+    "release_version": "PS-P8118S/L v1.0; effective 2025-05-27",
+    "sha256": "a25c711b40ee1ee71ec0f72b3f4754bb071b7c8724d4b014341b858b52f889d8",
+    "is_raw": "1",
+    "quality_grade": "VERIFIED",
+    "notes": "Verified document identity and vendor claims only; not independent peer-reviewed activity data. PDF excluded from public repository.",
+    "created_at": "2026-11-02T10:38:29.160417Z"
+  },
+  "product": {
+    "product_id": "neb_p8118",
+    "vendor_name": "New England Biolabs",
+    "product_name": "Cold-Active TEV Protease",
+    "catalog_number": "P8118S/L",
+    "positioning_claim": "Vendor-labelled cold-active protease",
+    "claimed_performance": "Vendor functional release specification; not a paper measurement",
+    "temperature_conditions": "4 deg C unit definition",
+    "ph_conditions": "pH 7.5 at 25 deg C; no temperature conversion assumed",
+    "buffer_conditions": "50 mM Tris, 0.5 mM EDTA, 1 mM DTT (functional unit assay)",
+    "unit_definition": "1 U cleaves 2 micrograms MBP5-TEV-paramyosin deltaSal to 95% completion in 10 microlitres, 5 h at 4 deg C",
+    "standard_substrate": "MBP5-TEV-paramyosin deltaSal",
+    "cleavage_rate_claim": "95% completion endpoint; not an initial rate or kcat/Km",
+    "cleavage_time_claim": "5 h",
+    "storage_stability": "Shelf life 24 months; -20 deg C in 50 mM Tris-HCl, 250 mM NaCl, 1 mM TCEP, 1 mM EDTA, 50% glycerol (pH 7.5 at 25 deg C)",
+    "packaging": "P8118S/L; concentration 10000 units/mL; package volumes not extracted",
+    "sequence_availability": "Not disclosed in this specification; no commercial sequence reconstructed",
+    "source_id": "src_neb_p8118_spec",
+    "source_locator": "Product Specification v1.0, page 1 of 1",
+    "related_patent_text": "US20260234592A1 discussed separately; no identity mapping established",
+    "patent_mapping_status": "UNRESOLVED",
+    "quality_grade": "VERIFIED",
+    "notes": "VERIFIED denotes exact vendor document/claim provenance. Product is not mapped to any patent SEQ ID or historical variant. No claim of sequence identity, independent activity validation or comparison across commercial units."
+  },
+  "extraction": "Manual review of PDF page 1; only explicit values extracted",
+  "measurement_rows_added": 0
+}

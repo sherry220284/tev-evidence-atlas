@@ -1,0 +1,8 @@
+key,value
+schema_version,1.1.0
+canonical_accession,P04517
+canonical_sequence_sha256,32bf7e47d8a79082d5c8d0662538068f4b6a11b10b399b6e68818214104547ec
+historical_release_id,tev_evidence_atlas_v0.1_2026-10-30
+curation_input_sha256,c0a38f6a59a774c1929530debc74e13c5f0e8f983743ad526988b8874a78768a
+natural_tables_status,LOADED_AND_REVIEWED
+atlas_version,0.1.0

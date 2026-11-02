@@ -1,0 +1,10 @@
+# Preserve frozen byte identity on every platform; SHA256 checks depend on it.
+* -text
+# csv.writer uses RFC 4180 CRLF. Do not normalize these audited files.
+# CSV cells retain source text, including any trailing spaces in notes.
+*.csv whitespace=cr-at-eol,-blank-at-eol
+*.tsv whitespace=cr-at-eol
+# Program reports and public coordinate archives retain original spacing.
+*.log -diff
+*.iqtree -diff
+*.cif -diff

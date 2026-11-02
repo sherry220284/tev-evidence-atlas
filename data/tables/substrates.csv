@@ -1,0 +1,16 @@
+substrate_id,substrate_name,substrate_type,full_sequence,recognition_sequence,p1_residue,p1_prime_residue,cleavage_site_notation,source_id,quality_grade,notes
+cab_fret,Abz-E-N-L-Y-F-Q-G-A-A-Lys(DNP)-OH,FRET_PEPTIDE,\N,ENLYFQG,Q,G,\N,src_cabrita2007,VERIFIED,Full fusion protein sequence / complete flanking peptide not established in this batch.
+st_low,MBP-TEVcs-GFP; ENLYFQ/M,PROTEIN_FUSION,\N,ENLYFQM,Q,M,\N,src_sanchez2020,VERIFIED,Full fusion protein sequence / complete flanking peptide not established in this batch.
+st_high,MBP-TEVcs-GFP; ENLYFQ/S,PROTEIN_FUSION,\N,ENLYFQS,Q,S,\N,src_sanchez2020,VERIFIED,Full fusion protein sequence / complete flanking peptide not established in this batch.
+nam_fret,SensoLyte 520; 5-FAM/QXL520 substrate,FRET_PEPTIDE,\N,ENLYFQG,Q,G,\N,src_nam2020,VERIFIED,Full fusion protein sequence / complete flanking peptide not established in this batch.
+yi_peptide_Q,TENLYFQSGTRRW,SYNTHETIC_PEPTIDE,\N,ENLYFQS,Q,S,\N,src_yi2013,VERIFIED,\N
+yi_peptide_E,TENLYFESGTRRW,SYNTHETIC_PEPTIDE,\N,ENLYFES,E,S,\N,src_yi2013,VERIFIED,\N
+yi_peptide_H,TENLYFHSGTRRW,SYNTHETIC_PEPTIDE,\N,ENLYFHS,H,S,\N,src_yi2013,VERIFIED,\N
+golda_peptide_A,TENLYFQAGTRR,SYNTHETIC_PEPTIDE,\N,ENLYFQA,Q,A,\N,src_p1specificity2024,VERIFIED,\N
+golda_peptide_G,TENLYFQGGTRR,SYNTHETIC_PEPTIDE,\N,ENLYFQG,Q,G,\N,src_p1specificity2024,VERIFIED,\N
+golda_peptide_S,TENLYFQSGTRR,SYNTHETIC_PEPTIDE,\N,ENLYFQS,Q,S,\N,src_p1specificity2024,VERIFIED,\N
+golda_peptide_H,TENLYFQHGTRR,SYNTHETIC_PEPTIDE,\N,ENLYFQH,Q,H,\N,src_p1specificity2024,VERIFIED,\N
+golda_peptide_C,TENLYFQCGTRR,SYNTHETIC_PEPTIDE,\N,ENLYFQC,Q,C,\N,src_p1specificity2024,VERIFIED,\N
+golda_peptide_M,TENLYFQMGTRR,SYNTHETIC_PEPTIDE,\N,ENLYFQM,Q,M,\N,src_p1specificity2024,VERIFIED,\N
+dav_ic2c,His6-tag/linker-ENLYFQM-dynein IC-2C(1–96),PROTEIN_FUSION,\N,ENLYFQM,Q,M,\N,src_davis2025,VERIFIED,\N
+pat_cbd_bglA,CBD-TEVrs-bglA,FUSION_PROTEIN,\N,\N,\N,\N,\N,src_patent2026,PARTIAL,Source Example 4; complete substrate sequence not independently transcribed.

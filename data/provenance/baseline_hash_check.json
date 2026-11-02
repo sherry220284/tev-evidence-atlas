@@ -1,0 +1,107 @@
+[
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/cabrita2007.html",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/cabrita2007_table1.jpg",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/cabrita2007_table2.jpg",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/nam2020.xml",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/sanchez2020.html",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/sanchez2020_correction.html",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/sanchez2020_figure2.jpg",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/sanchez2020_figure3.jpg",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/sanchez2020_supplement.pdf",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/uniprot/uniprot_potyviridae_ipr001730_2026_03.tsv",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/yi2013.html",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/p1specificity2024.html",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/davis2025.html",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/literature/messing2024.html",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/patents/US20260234592A1.pdf",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/structures/1LVB.cif",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "raw-data/structures/1LVM.cif",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "nia_pro_alignment.fasta",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "build/phylogeny/nia_pro_representative_alignment.fasta",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "nia_pro_phylogeny.nwk",
+    "ok": true
+  },
+  {
+    "manifest": "build/advisor_deck/setup/input_hash_check.json",
+    "path": "build/phylogeny/nia_pro_representative_phylogeny.nwk",
+    "ok": true
+  }
+]

@@ -1,0 +1,6 @@
+# Exact versions used for the offline review verification on Python 3.6.8.
+# For a current Python interpreter use requirements.txt instead.
+numpy==1.19.5
+matplotlib==3.3.4
+biopython==1.79
+Pillow==8.4.0

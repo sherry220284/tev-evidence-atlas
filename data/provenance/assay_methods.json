@@ -1,0 +1,191 @@
+[
+  {
+    "id": "cabrita",
+    "text_path": "build/literature/cabrita2007.txt",
+    "quote": "Enzyme kinetics were performed at 30°C, in 25 mM Na3PO4, 200 mM NaCl, 10%(v/v) glycerol, and 5 mM BME (pH 8.0). ",
+    "ref": "cabrita2007",
+    "title": "Cabrita 2007｜短肽初速与融合蛋白切割",
+    "rows": [
+      [
+        "温度／缓冲",
+        "30℃；25 mM Na3PO4；pH 8.0"
+      ],
+      [
+        "添加物",
+        "200 mM NaCl；10% glycerol；5 mM BME"
+      ],
+      [
+        "短肽／读出",
+        "Abz-ENLYFQGAALys(DNP)-OH；320/420 nm"
+      ],
+      [
+        "浓度／品牌",
+        "底物20 μM–2 mM；Auspep 合成；>90%纯度"
+      ]
+    ],
+    "missing": "未报告：单一酶终浓度、Table 2重复数与±定义、Auspep底物货号。4℃ 6–8 h 为正文 data not shown。",
+    "extra": "Methods, Enzyme kinetics；FluorStar Galaxy。S219V背景被该文称WT。短肽动力学不能与UBL-GST切割时间混用。"
+  },
+  {
+    "id": "yi",
+    "text_path": "build/literature/yi2013.txt",
+    "quote": "Enzyme kinetics for purified protease variants were determined with peptide substrates encoding Gln, Glu, or His as the P1 substrate residue,",
+    "ref": "yi2013",
+    "title": "Yi 2013｜P1 改变不是 P1′ 改变",
+    "rows": [
+      [
+        "动力学端点",
+        "Table 1；肽底物 P1 = Q / E / H"
+      ],
+      [
+        "可确认结论",
+        "TEV-Fast 对Q底物效率更高（原文条件）"
+      ],
+      [
+        "方法定位",
+        "主文明确指向 SI Methods / Fig. S8"
+      ],
+      [
+        "证据缺口",
+        "本次未取得并核实完整SI动力学协议"
+      ]
+    ],
+    "missing": "未核实：Table 1温度、pH、酶/底物浓度、试剂品牌货号与详细时间窗。不能借用Figure 4融合蛋白的30℃条件。",
+    "extra": "主文 Table 1 及 Fig. S8；不把Figure 4蛋白底物的pH 8/30℃/1 h转填到短肽动力学。"
+  },
+  {
+    "id": "sanchez",
+    "text_path": "build/literature/sanchez2020.txt",
+    "quote": "Due to protein solubility limits, the maximum concentration of TEVcs was 360 μM (much lower than the expected Km).",
+    "ref": "sanchez2020",
+    "title": "Sanchez–Ting 2020｜kapp 与 kcat 分开",
+    "rows": [
+      [
+        "Fig.2C–E",
+        "30℃；底物360 μM；酶750 nM（图注）"
+      ],
+      [
+        "Fig.3E–F",
+        "底物7.5–320 μM；酶125 nM（图注）"
+      ],
+      [
+        "缓冲液",
+        "50 mM Tris pH8；10% glycerol；EDTA 1 mM；DTT 2 mM"
+      ],
+      [
+        "读出／限制",
+        "SDS-PAGE → Typhoon 9410 → ImageJ；需附勘误"
+      ]
+    ],
+    "missing": "未解决：Methods 100 nM 与图注750/125 nM冲突；原Fig.3F单位缺失须附勘误。部分试剂货号未报告。",
+    "extra": "Fig.2底物ENLYFQ/M；Fig.3高亲和底物ENLYFQ/S，分开解释。Fig.2E为低于饱和条件的表观速率下界。高浓度融合底物的可溶性限制不可忽略。"
+  },
+  {
+    "id": "nam",
+    "text_path": "build/literature/nam2020.txt",
+    "quote": "The SensoLyte® 520 TEV Protease Assay Kit (Anaspec, Fremont, CA, USA) was used to measure the activity of TEV protease. ",
+    "ref": "nam2020",
+    "title": "Nam 2020｜试剂盒活性测量的原始条件",
+    "rows": [
+      [
+        "反应／温度",
+        "100 μL：50 μL酶 + 50 μL底物；温度未报告"
+      ],
+      [
+        "酶／底物定义",
+        "酶稀释液1 μg/mL；底物stock 100 μM后稀释"
+      ],
+      [
+        "采样／标准",
+        "485/535 nm；每1 min，共150 min；5-FAM标准"
+      ],
+      [
+        "缓冲／品牌",
+        "assay buffer；标准液含1 mM DTT；AnaSpec"
+      ]
+    ],
+    "missing": "未报告：测活温度、完整底物终浓度系列、完整kit buffer配方、仪器型号及对照酶序列；AS-72227由官方TDS补证。",
+    "extra": "Methods, Activity of TEV protease。标准0/125/250/500 nM。1 μg/mL为混合前酶稀释液；1:1混合可算得0.5 μg/mL，但不是原文另报的摩尔终浓度。1 mM DTT明确用于标准稀释液，不补推完整反应配方。厂家TDS示例490/520 nm与论文485/535 nm分列。"
+  },
+  {
+    "id": "golda",
+    "text_path": "build/literature/p1specificity2024.txt",
+    "quote": "Kinetic parameters were determined at less than 20% substrate conversion",
+    "ref": "p1specificity2024",
+    "title": "Golda 2024｜HPLC 低转化率动力学",
+    "rows": [
+      [
+        "反应参数",
+        "30℃；20 μL；pH 7.4"
+      ],
+      [
+        "缓冲液",
+        "25 mM phosphate；100 mM NaCl；5 mM DTT；10% glycerol"
+      ],
+      [
+        "底物／读出",
+        "5个浓度：0.017–1.74 mM；<20%转化"
+      ],
+      [
+        "品牌／仪器",
+        "Nova-Pak C18；Waters；GraphPad Prism 9.4.1"
+      ]
+    ],
+    "missing": "未解决：79–288 nM酶浓度的混合前后与各底物对应；未报告活性位点滴定；HPLC柱货号未报告。",
+    "extra": "Methods, Cleavage reactions with oligopeptide substrates；Table 6。5 μL酶溶液的浓度定义保留歧义，不能补成确定终浓度。按100%活性酶计算。星号列为旧文献引用。"
+  },
+  {
+    "id": "messing",
+    "text_path": "build/literature/messing2024.txt",
+    "quote": "the reaction incubated for 2 hours at RT (~23°C).",
+    "ref": "messing2024",
+    "title": "Messing 2025｜融合蛋白切割与生产分开",
+    "rows": [
+      [
+        "底物／耗材",
+        "His6-MBP-tev-eGFP；Pierce 镍包被板 #15442"
+      ],
+      [
+        "主Methods",
+        "底物1 mg/mL×150 μL；RT约23℃反应2 h"
+      ],
+      [
+        "缓冲／读出",
+        "20 mM Hepes pH7.4；150 mM NaCl；1 mM TCEP"
+      ],
+      [
+        "计算／低温图",
+        "洗板后残留荧光；(1 - F/F无酶)×100%；Fig.2D另标4℃"
+      ]
+    ],
+    "missing": "未完整核实：Fig.2D的4℃/37℃与主Methods室温流程如何逐项对应；不能把2 h室温写成已核实的4℃ SOP。",
+    "extra": "Activity Assay：镍板固定底物1 h；反应后倒弃上清、洗3次，BioTek Synergy Neo2 (Agilent)/Gen5 3.12测板上残留GFP。TEV储液约4.5 mg/mL，经1%至0.03%(v/v)稀释。Figure 2A的440 mg/L是工艺产量；Figure 2D才是温度比较。出版卷期2025，DOI/文件名含2024。"
+  },
+  {
+    "id": "davis",
+    "text_path": "build/literature/davis2025.txt",
+    "quote": "Each mixture of substrate and protease was allowed to react for 10 min at 30°C",
+    "ref": "davis2025",
+    "title": "Davis 2025｜SDS-PAGE 动力学与两种拟合",
+    "rows": [
+      [
+        "反应终浓度",
+        "30℃×10 min；酶0.18–0.25 μM；底物7.5–250 μM"
+      ],
+      [
+        "反应缓冲",
+        "SEC buffer：50 mM phosphate pH7.4；150 mM NaCl"
+      ],
+      [
+        "凝胶／定量",
+        "GenScript SurePAGE Bis-Tris 8–16%；AcquaStain"
+      ],
+      [
+        "仪器／分析",
+        "Bio-Rad Gel Doc XR+ / Image Lab 6.1；两种拟合分存"
+      ]
+    ],
+    "missing": "未报告：SurePAGE与AcquaStain货号；未证明免还原剂等于4℃更快。两种拟合不是独立重复。",
+    "extra": "Methods §5.2、§5.7：总反应20 μL；10 min后加10 μL 3×loading buffer并90℃×5 min。原文40 μM DTT属于终止上样液，不能移入反应液。Fig.4单次条件0.18 μM/11–244 μM与Methods范围分开。Addgene #8827为S219V对照，#222868为Hexa；耗材未报货号不补造。 底物IC-2C1–96：6×His-tag、连接肽及ENLYFQ/M识别位点，§5.7；10μL酶液+10μL底物。原文[P]=P/(S+P)×[S]0；Table1为多次实验均值/SD，确切n未报告。"
+  }
+]

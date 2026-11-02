@@ -1,0 +1,72 @@
+[
+  {
+    "table": "assay_protocols",
+    "id": "nam_kin",
+    "field": "reducing_agent",
+    "before": "1 mM DTT in assay buffer (as reported)",
+    "after": "1 mM DTT in standard dilution buffer; complete reaction composition not reported",
+    "source": "Nam Activity of TEV protease; standard solution paragraph",
+    "severity": "major",
+    "review_status": "PRIMARY_SOURCE_RECHECKED"
+  },
+  {
+    "table": "measurements",
+    "id": "nam_control_Km",
+    "field": "reducing_agent",
+    "before": "1 mM DTT in assay buffer (as reported)",
+    "after": "1 mM DTT in standard dilution buffer; complete reaction composition not reported",
+    "source": "Nam Methods; do not propagate standard-buffer composition into reaction",
+    "severity": "major",
+    "review_status": "PRIMARY_SOURCE_RECHECKED"
+  },
+  {
+    "table": "measurements",
+    "id": "nam_control_kcat",
+    "field": "reducing_agent",
+    "before": "1 mM DTT in assay buffer (as reported)",
+    "after": "1 mM DTT in standard dilution buffer; complete reaction composition not reported",
+    "source": "Nam Methods; do not propagate standard-buffer composition into reaction",
+    "severity": "major",
+    "review_status": "PRIMARY_SOURCE_RECHECKED"
+  },
+  {
+    "table": "measurements",
+    "id": "nam_n_Km",
+    "field": "reducing_agent",
+    "before": "1 mM DTT in assay buffer (as reported)",
+    "after": "1 mM DTT in standard dilution buffer; complete reaction composition not reported",
+    "source": "Nam Methods; do not propagate standard-buffer composition into reaction",
+    "severity": "major",
+    "review_status": "PRIMARY_SOURCE_RECHECKED"
+  },
+  {
+    "table": "measurements",
+    "id": "nam_n_kcat",
+    "field": "reducing_agent",
+    "before": "1 mM DTT in assay buffer (as reported)",
+    "after": "1 mM DTT in standard dilution buffer; complete reaction composition not reported",
+    "source": "Nam Methods; do not propagate standard-buffer composition into reaction",
+    "severity": "major",
+    "review_status": "PRIMARY_SOURCE_RECHECKED"
+  },
+  {
+    "table": "measurements",
+    "id": "nam_v_Km",
+    "field": "reducing_agent",
+    "before": "1 mM DTT in assay buffer (as reported)",
+    "after": "1 mM DTT in standard dilution buffer; complete reaction composition not reported",
+    "source": "Nam Methods; do not propagate standard-buffer composition into reaction",
+    "severity": "major",
+    "review_status": "PRIMARY_SOURCE_RECHECKED"
+  },
+  {
+    "table": "measurements",
+    "id": "nam_v_kcat",
+    "field": "reducing_agent",
+    "before": "1 mM DTT in assay buffer (as reported)",
+    "after": "1 mM DTT in standard dilution buffer; complete reaction composition not reported",
+    "source": "Nam Methods; do not propagate standard-buffer composition into reaction",
+    "severity": "major",
+    "review_status": "PRIMARY_SOURCE_RECHECKED"
+  }
+]
